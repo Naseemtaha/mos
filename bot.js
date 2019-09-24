@@ -220,4 +220,8 @@ client.on("roleCreate", async channel => {
  
  
  
-client.login(" ");
+
+
+
+
+client.login(process.env.BOT_TOKEN);
